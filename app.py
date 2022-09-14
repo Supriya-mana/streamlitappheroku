@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-loaded_model=pickle.load(open('C:\\Users\\SABOOSACHI\\Desktop\\MACHINE LEARNING\\fake news detection\\trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 def add_bg_from_url():
     st.markdown(f"""
             <style>
